@@ -1,0 +1,153 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+section {
+  width: 100%;
+  overflow: hidden;
+}
+
+nav a {
+  text-decoration: none !important;
+}
+
+nav a:hover {
+  color: grey !important;
+}
+
+#showcase {
+  height: 100vh !important;
+  position: absolute;
+  background: url("../img/showcase2.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bottom {
+  margin: 0;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#showcase h1 {
+  color: blue;
+  font-size: 50px;
+  word-spacing: 10px;
+}
+
+#colaboladores {
+  background-color: blue !important;
+}
+
+#colaboladores img {
+}
+
+.square-img {
+  max-width: 300px;
+}
+
+#five_day_table span {
+  display: block;
+  margin: 1px 3px 0px 0px;
+}
+
+.primary-span {
+  content: "";
+  display: inline-block;
+  width: 200%;
+  height: 5px;
+  margin-left: -50%;
+  background: #228633;
+}
+
+.secondary-span {
+  content: "";
+  display: inline-block;
+  width: 200%;
+  height: 20px;
+  margin-left: -50%;
+  background: #1c5c02;
+}
+
+.brand-name {
+  display: flex;
+  left: 50%;
+  right: 50%;
+}
+
+.brand-name span {
+  font-size: 100px;
+}
+
+.primary-color {
+  color: #228633;
+}
+.secondary-color {
+  color: #1c5c02;
+}
+
+/*Section about-us*/
+
+#about-us {
+  margin-top: 100vh;
+  height: 100vh !important;
+  background-color: #00a2bb;
+  text-align: justify;
+  background: url("../img/about-us.jpg") no-repeat 48% center fixed;
+}
+
+.img-pictoline {
+  max-width: 100%;
+}
+.overlay {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-2 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: white;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/*Servicios*/
+
+#servicios {
+  background-color: white !important;
+}
+
+.servicios .container {
+  height: 50vh !important;
+}
+
+/*contacto*/
+#contacto {
+  background: url("../img/contacto.png") no-repeat 50% center;
+  /*background-color: black;*/
+  min-height: 100vh;
+}
+
+#contacto {
+  font-size: 25px;
+  font: bold;
+}
+#contacto a {
+  color: white;
+  text-decoration: none;
+}
+#contacto a:hover {
+  color: blue;
+}

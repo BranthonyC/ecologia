@@ -1,0 +1,53 @@
+body {
+  font-family: "Handlee", cursive;
+  font-size: 20px;
+}
+
+body h1,
+h2,
+h3 {
+  font-family: "Staatliches", cursive;
+}
+
+@media (max-width: 750px) {
+  .bottom {
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  #showcase {
+    background-image: url("../img/showcase-background.jpg");
+    background-position-x: 50%;
+  }
+  #showcase h2 {
+    font-size: 20px !important;
+  }
+
+  #showcase h3 {
+    font-size: 15px !important;
+  }
+
+  .brand-name span {
+    color: white;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 415px) {
+  #showcase {
+    background-image: url("../img/showcase-background.jpg");
+    background-position-x: 50%;
+  }
+  #showcase h2 {
+    font-size: 20px !important;
+  }
+
+  #showcase h3 {
+    font-size: 15px !important;
+  }
+
+  .brand-name span {
+    font-size: 50px;
+  }
+}
