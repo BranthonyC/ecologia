@@ -104,6 +104,11 @@ nav a:hover {
   background: url("../img/about-us.jpg") no-repeat 48% center fixed;
 }
 
+#growing {
+  height: 100% !important;
+  text-align: justify;
+}
+
 .img-pictoline {
   max-width: 100%;
 }
@@ -150,4 +155,62 @@ nav a:hover {
 }
 #contacto a:hover {
   color: blue;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "a a a"
+    "c c c"
+    "b b b"
+    "g h h";
+  grid-gap: 1em;
+}
+/* how many columns will each class span? Here we've used numbers to call out specific locations of some boxes. Note that our classes are less reusable this way. */
+.a img {
+  max-width: 25rem;
+}
+
+.b img {
+  max-width: 25rem;
+}
+.a {
+  grid-area: a;
+}
+.h {
+  grid-area: h;
+}
+.c {
+  grid-area: c;
+}
+
+.imgFlower img {
+  max-width: 20rem;
+}
+
+/* presentational styles: you don't need to change these to get the answer */
+
+.a {
+  background-color: #fcb10f;
+}
+.b {
+  background-color: #801340;
+}
+.c {
+}
+.d {
+  background-color: #244479;
+}
+.e {
+  background-color: #55b4af;
+}
+.f {
+  background-color: rgba(128, 19, 64, 0.7);
+}
+.g {
+  background-color: rgba(77, 41, 117, 0.5);
+}
+.h {
+  background-color: rgba(252, 177, 15, 0.7);
 }
